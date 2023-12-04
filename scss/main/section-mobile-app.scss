@@ -1,0 +1,105 @@
+.section_mobile_app{
+    background-color: #3C3C3C;
+}
+
+.subtitle_cards{
+    color: #565656;
+margin: 18px 0 22px 0;
+
+    &--first{
+        font-size: 40px;
+        font-weight: 600;
+
+        @media(max-width: 768px){
+            font-size: 32px;
+        }
+    }
+    &--three{
+        // font-size: 32px;
+        font-weight: 700;
+        @media(max-width: 768px){
+            font-size: 24px;
+        }
+    }
+
+}
+.mobile_app--menu{
+padding-left: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+@media(max-width: 768px){
+    padding-top: 52px;
+    padding-bottom: 85px;
+}
+
+@media(min-width: 768px){
+    padding-top: 52px;
+    padding-bottom: 122px;
+}
+@media(min-width: 1200px){
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+}
+
+.mobile_app{
+    border-radius: 24px;
+    background-color: #FFFEF2;
+
+    &--item1{
+        border-radius: 24px;
+        background-color: #FFFEF2;
+        padding:24px 20px;
+
+        @media(min-width: 320px ){
+            height: 488px;
+            width:343px ;
+            padding:16px;
+        }
+        @media(min-width: 768px ){
+            height: 680px;
+            width: 703px;
+            padding:24px 20px;
+        }
+        @media(min-width: 1200px ){
+            width: 1050px;
+            height: 680px;
+            padding:24px 20px;
+        }
+    }
+    &--item-three{
+        position: relative;
+        @media(max-width: 768px ){
+            height: 518px;
+            width:343px ;
+            margin-top: 63px;
+            padding: 12px;
+        }
+        @media(min-width: 768px ){
+            height: 634px;
+            width: 333px;
+            padding:24px 20px;
+            margin-top: 102px;
+        }
+        @media(min-width: 1200px ){
+            width: 325px;
+            height: 545px;
+            padding:20px;
+            margin-top: 63px;
+        }
+    }
+
+    &--none{
+        @media(max-width: 768px ){
+             display: none;
+        }
+}
+    &--none-1{
+        @media(max-width: 1200px ){
+            display: none;
+       }
+    }
+}

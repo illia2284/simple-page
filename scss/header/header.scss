@@ -1,0 +1,61 @@
+.header_page{
+    position: fixed;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 92px;
+    z-index: 1;
+
+}
+
+.nav_menu--header{
+    @media (max-width: 1200px){
+        margin-left: 497px;
+        display:none;
+    }
+}
+
+.main_menu{
+    gap: 20px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    &--disign{
+        flex-wrap: wrap;
+    }
+
+}
+
+.menu_link{
+    
+    &--header{
+     display: flex;
+     align-items: center;
+     border-radius: 20px;
+     border: 1px solid #FFF;
+     padding: 10px 16px;
+    }
+}
+
+.main_text--header{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12px;
+}
+
+.btn--header{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+border: 2px solid #FFF;
+padding: 20px;
+cursor: pointer;
+
+@media (min-width: 1200px){
+    display: none;
+}
+}

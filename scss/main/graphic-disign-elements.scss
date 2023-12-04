@@ -1,0 +1,92 @@
+.menu_link_disign--1::before{
+    content: "";
+background-image: url(../images/soft-star.svg);
+display: block;
+z-index: 1;
+position: absolute;
+background-repeat: no-repeat;
+
+@media(max-width: 768px) {
+    width: 172px;
+    height: 172px;
+    background-size: 172px 172px;
+    top: 217px;
+    left: 86px;
+}
+@media(min-width: 768px) {
+    background-size: 227px 227px;
+    width: 227px;
+    height: 227px;
+    top: 321px;
+    left: 239px;
+}
+@media(min-width: 1200px) {
+    background-size:268px 268px ;
+    width: 268px;
+    height: 268px;
+    top: 295px;
+    left: 391px;
+}
+}
+
+.menu_link_disign--2::before{
+    content: "";
+background-image: url(../images/butterfly.svg);
+display: block;
+z-index: 1;
+position: absolute;
+background-repeat: no-repeat;
+
+@media(max-width: 768px) {
+    width: 134px;
+    height: 137px;
+    background-size: 134px 137px;
+    top: 579px;
+    left: 105px;
+}
+@media(min-width: 768px) {
+    background-size: 147px 151px;
+    width: 147px;
+    height: 151px;
+    top: 755px;
+    left: 94px;
+}
+@media(min-width: 1200px) {
+    background-size:187px 191px ;
+    width: 187px;
+    height: 191px;
+    top: 779px;
+    left: 164px;
+}
+}
+
+.menu_link_disign--3::before{
+    content: "";
+background-image: url(../images/asterisk.svg);
+display: block;
+z-index: 1;
+position: absolute;
+background-repeat: no-repeat;
+
+@media(max-width: 768px) {
+    width: 148px;
+    height: 143px;
+    background-size: 148px 143px;
+    top: 913px;
+    left: 98px;
+}
+@media(min-width: 768px) {
+    background-size: 183px 177px;
+    width: 183px;
+    height: 177px;
+    top: 745px;
+    left: 442px;
+}
+@media(min-width: 1200px) {
+    background-size:233px 225px ;
+    width: 233px;
+    height: 225px;
+    top: 762px;
+    left: 681px;
+}
+}

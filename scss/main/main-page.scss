@@ -1,0 +1,84 @@
+.main{
+    background: linear-gradient(253deg, #FFEE32 -13.48%, #D6D6D6 125.48%);
+}
+
+.subtitle_main{
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+    
+    &--first{
+        @media(max-width: 768px){
+            padding-top: 412px;
+            font-size: 48px;
+            padding-bottom: 149px;
+        }
+        @media(min-width: 768px){
+            padding-top: 273px;
+            padding-bottom: 130px;
+        }
+        @media(min-width: 1200px){
+            padding-top: 412px;
+            padding-bottom: 119px;
+        }
+    }
+     &--second{
+        font-size: 48px;
+        color: #FAEB49;
+
+        @media(max-width: 768px){
+            font-size: 36px;
+        }
+     }
+
+     &--third{
+        @media(max-width: 768px){
+            margin-bottom: 28px;
+            font-size: 36px;
+            padding-top: 52px;
+        }
+        @media(min-width: 768px){
+            margin-bottom: 38px;
+            padding-top: 82px;
+            font-size: 80px;
+        }
+     }
+
+}
+
+.page_text{
+font-size: 16px;
+
+  &--about{
+    color: #FFF;
+font-size: 16px;;
+font-weight: 500;
+margin-top: 40px;
+margin-bottom: 40px;
+
+@media(max-width: 768px){
+    font-size: 15px;
+}
+  }
+
+  &--cards1{
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+    @media(max-width: 768px){
+        font-size: 15px;
+    }
+  }
+
+  &--cards2{
+    color: #000;
+    font-weight: 500;
+    margin: 0;
+    @media(max-width: 768px){
+        font-size: 15px;
+    }
+  }
+
+}
+

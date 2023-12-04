@@ -1,0 +1,76 @@
+.graphic-disign_section{
+    background-color: #202020;
+    @media (max-width: 768px){
+      height: 1260px;
+    }
+    @media (min-width: 768px){
+      height: 1122px;
+    }
+    @media (min-width: 1200px){
+      height: 1220px;
+    }
+}
+
+.menu_item_disign {
+    border-radius: 40px;
+    filter: grayscale(100%);
+
+    &--1{
+        background-image: url(../images/unsplash_rqIfy1UyIzE.jpg);
+      background-size:cover ;
+      background-repeat:no-repeat ;
+      background-position: left center;
+
+      @media(max-width: 768px){
+        width: 343px;
+        height: 325px;
+      }
+      @media(min-width: 768px){
+        width: 704px;
+        height: 414px;
+      }
+      @media(min-width: 1200px){
+        width: 1055px;
+        height: 414px;
+      }
+    }
+
+    &--2{
+      background-image: url(../images/rectangle-6.jpg);
+      background-size:cover ;
+      background-repeat:no-repeat ;
+      background-position:center;
+
+      @media(max-width: 768px){
+        width: 343px;
+        height: 325px;
+      }
+      @media(min-width: 768px){
+        width: 336px;
+        height: 325px;
+      }
+      @media(min-width: 1200px){
+        width: 514px;
+        height: 414px;
+      }
+    }
+    &--3{
+      background-image: url(../images/rectangle-7.jpg);
+      background-size:cover ;
+      background-repeat:no-repeat ;
+      background-position:center;
+
+      @media(max-width: 768px){
+        width: 343px;
+        height: 325px;
+      }
+      @media(min-width: 768px){
+        width: 336px;
+        height: 325px;
+      }
+      @media(min-width: 1200px){
+        width: 514px;
+        height: 414px;
+      }
+    }
+}

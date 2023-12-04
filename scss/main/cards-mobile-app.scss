@@ -1,0 +1,100 @@
+.img_main{
+    border-radius: 13px ;
+
+    &--mobile1{
+    @media(max-width: 1200px){
+        display: none;
+    }
+    @media(min-width: 1200px){
+        display: block;
+        width: 1010px;
+        height: 498px;
+    }
+}
+
+    &--mobile1-1{
+        @media(min-width: 320px){
+            height: 278px;
+            width: 311px;
+        }
+        @media(min-width: 768px){
+            width: 663px;
+            height: 498px;
+        }
+        @media(min-width: 1200px){
+            display: none;
+        }
+    }
+    &--mobile2{
+        @media(max-width: 768px){
+            width: 319px;
+            height: 363px;
+            border-radius: 13px ;
+        }
+
+        @media(min-width: 768px){
+            width: 293px;
+            height: 448px;
+            border-radius: 13px ;
+        }
+        @media(min-width: 1200px){
+            width: 285px;
+            height: 338px;
+            border-radius: 13px ;
+        }
+    }
+}
+
+.eclipse_arrow{
+    position: absolute;
+ 
+    @media(max-width: 768px){
+     top:72px; 
+     left: 261px;
+    }
+ 
+    @media(min-width: 768px){
+     top:92px; 
+     left: 604px;
+    }
+ 
+    @media(min-width: 1200px){
+     top:126px; 
+     left: 950px;
+    }
+
+    &--three{
+      position: absolute;
+
+      @media(max-width: 768px){
+        top: 15px;
+        left: 260px;
+       }
+    
+       @media(min-width: 768px){
+        top: 30px;
+        left: 240px;
+       }
+    
+       @media(min-width: 1200px){
+        top: 30px;
+        left: 230px;
+       }
+    }
+ }
+ 
+ .eclipse{
+     position: absolute;
+ }
+ 
+ .arrow{
+     position: absolute;
+     top: 15px;
+     left: 15px;
+
+     &--three{
+     position: absolute;
+     top: 15px;
+     left: 15px;
+     }
+ }

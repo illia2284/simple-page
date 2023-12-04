@@ -1,0 +1,17 @@
+// * Це головний sass/scss файл проекту
+// * імпортуйте сюди всі інші ваші файли sass/scss
+
+@import "./normalize.scss";
+@import "./conteiner.scss";
+@import "./base.scss";
+@import "./header/header.scss";
+@import "./header/header-hover-scroll.scss";
+@import "./main/main-page.scss";
+@import "./main/section-info-about.scss";
+@import "./main/section-mobile-app.scss";
+@import "./main/cards-mobile-app.scss";
+@import "./main/graphic-disign_section.scss";
+@import "./main/graphic-disign-elements.scss";
+@import "./main/section_good-disign.scss";
+@import "./footer/footer.scss";
+@import "./footer/footer-svg.scss"

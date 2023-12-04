@@ -1,0 +1,29 @@
+.svg_footer{
+
+
+    &--dawn{
+    @media (max-width: 768px){
+        width: 52px;
+        height: 51px;
+    }
+    @media (min-width: 768px){
+        width: 108px;
+        height: 108px;
+    }
+    }
+
+    &--arrow{
+        @media (max-width: 768px){
+            width: 33px;
+            height: 15px;
+        }
+        @media (min-width: 768px){
+          width: 55px;
+          height: 26px;
+        }
+        }
+}
+
+.main_menu--social{
+    gap: 34px;
+}
